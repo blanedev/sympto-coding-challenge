@@ -47,7 +47,7 @@ export const Patients = () => {
     notification.open({
       message: 'Created successfully',
       description:
-        'A new patient created successfully. Continue to create a new appointment for this person.',
+        'A new patient was created successfully. Continue to create a new appointment for this patient.',
       placement: 'bottomLeft',
       type: 'success',
       key,
