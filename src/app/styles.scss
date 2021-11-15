@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow: auto !important;
+}
+
+#root {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+p,
+label {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+}
+
+input,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.my-large {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.mb-large {
+  margin-bottom: 24px;
+}
+
+.mb-medium {
+  margin-bottom: 16px;
+}
